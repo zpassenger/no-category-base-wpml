@@ -5,7 +5,7 @@ Requires at least: 3.1
 Tested up to: 3.1
 Stable tag: trunk
 
-This plugin removes the mandatory 'Category Base' from your category permalinks. It is compatible with WPML plugin.
+This plugin removes the mandatory 'Category Base' from your category permalinks. It is compatible with WPML.
 
 == Description ==
 
