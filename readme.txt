@@ -59,5 +59,9 @@ Depends, if its useful enough and I have time for it.
 
 == Changelog ==
 
+= 1.1.0 =
+
+Fixed compatibility for WordPress 3.4
+
 = 1.0.0 =
 * Initial release.

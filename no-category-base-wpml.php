@@ -3,7 +3,7 @@
 Plugin Name: WP No Category Base - WPML compatible
 Plugin URI: http://github.com/mines/no-category-base-wpml
 Description: Removes '/category' from your category permalinks. WPML compatible.
-Version: 1.0.0
+Version: 1.1.0
 Author: Mines
 Author URI: http://mines.io/
 */
@@ -64,7 +64,12 @@ function no_category_base_deactivate()
 function no_category_base_permastruct()
 {
 	global $wp_rewrite;
-	$wp_rewrite->extra_permastructs['category'][0] = '%category%';
+  global $wp_version;
+  if ($wp_version >= 3.4) {
+	  $wp_rewrite->extra_permastructs['category']['struct'] = '%category%';
+  } else {
+    $wp_rewrite->extra_permastructs['category'][0] = '%category%';
+  }
 }
 
 /**
