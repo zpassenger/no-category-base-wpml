@@ -2,8 +2,11 @@
 Contributors: mines.io
 Tags: categories, category base, category, permalinks, permastruct, links, seo, cms, wpml
 Requires at least: 3.1
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tested up to: 3.4
 Stable tag: 1.1.0
+Donate Link: http://goo.gl/weiEX
 
 This plugin removes the mandatory 'Category Base' from your category permalinks. It is compatible with WPML.
 
@@ -50,7 +53,7 @@ Simply don't have a page and category with the same slug. Even if they do have t
 
 = Can you add a feature X? =
 
-Depends, if its useful enough and I have time for it.
+Just ask on the support forum. If its useful enough and I have time for it, sure.
 
 
 == Screenshots ==
@@ -59,9 +62,14 @@ Depends, if its useful enough and I have time for it.
 
 == Changelog ==
 
+= 1.1.5 =
+
+Added support for custom pagination_base
+
 = 1.1.0 =
 
 Fixed compatibility for WordPress 3.4
 
 = 1.0.0 =
-* Initial release.
+
+Initial release
