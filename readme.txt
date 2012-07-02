@@ -51,6 +51,10 @@ As far as I can tell, no. I have been using this on several blogs for a while an
 
 Simply don't have a page and category with the same slug. Even if they do have the same slug it won't break anything, just the category will get priority (Say if a category and page are both 'xyz' then `myblog.com/xyz/` will give you the category). This can have an useful side-effect. Suppose you have a category 'news', you can add a page 'news' which will show up in the page navigation but will show the 'news' category.
 
+= Do I need WPML to use it? =
+
+No, you can use this plugin without having WPML installed.
+
 = Can you add a feature X? =
 
 Just ask on the support forum. If its useful enough and I have time for it, sure.
