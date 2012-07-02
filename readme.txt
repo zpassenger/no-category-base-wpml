@@ -3,7 +3,7 @@ Contributors: mines.io
 Tags: categories, category base, category, permalinks, permastruct, links, seo, cms, wpml
 Requires at least: 3.1
 Tested up to: 3.4
-Stable tag: trunk
+Stable tag: 1.1.0
 
 This plugin removes the mandatory 'Category Base' from your category permalinks. It is compatible with WPML.
 
